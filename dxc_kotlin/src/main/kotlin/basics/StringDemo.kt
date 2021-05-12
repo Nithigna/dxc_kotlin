@@ -2,16 +2,16 @@ package basics
 
 fun main() {
     var a = 9
-    var b = "rakesh"
-    var c = "Rakesh@$a"
-    var sentence = "${b.replace("rakesh", "Rakesh")}"
+    var b = "nithigna"
+    var c = "Nithigna@$a"
+    var sentence = "${b.replace("nithigna", "Nithigna")}"
     println(a)
     println(b)
     println(c)
     println(sentence)
     println("Max is " + maxOfNumbers(10, 90))
 
-    val items = listOf<String>("rakesh", "vampire", "devil")
+    val items = listOf<String>("nithigna", "vampire", "devil")
 
     for (item in items) {
         println(item)

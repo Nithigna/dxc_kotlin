@@ -1,7 +1,7 @@
 package classesdemo
 
 object DoAuth{
-   private var username = "Rakesh"
+   private var username = "Nithigna"
    private var password = "rakesh"
     fun validateCredentials(username : String, password: String):Boolean{
         return this.username == username && this.password == password
@@ -9,5 +9,5 @@ object DoAuth{
 }
 
 fun main() {
-    if (DoAuth.validateCredentials("Rakesh","rakesh")) println("Hey Rakesh") else print("Wrong Credentials")
+    if (DoAuth.validateCredentials("Nithigna","Nithigna")) println("Hey Nithigna") else print("Wrong Credentials")
 }

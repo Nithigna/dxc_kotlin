@@ -13,8 +13,8 @@ fun main() {
     println("\nWorking of Maps")
     var names = TreeMap<Int, String>()
 
-    names[1] = "Rakesh"
-    names[2] = "Dama"
+    names[1] = "Nithigna"
+    names[2] = "N"
 
 //    println(names)
 

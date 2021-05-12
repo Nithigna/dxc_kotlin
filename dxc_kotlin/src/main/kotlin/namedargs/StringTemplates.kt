@@ -1,1 +1,1 @@
-package namedargsfun main() {    var name = "Rakesh"    var (x,y,z) = arrayOf(1,2,3)    var map = mapOf( name to 21, "Dama" to 22)    for ((name,age) in map){        println("$name is aged about $age")    }    println(x)    println("$name Dama")}
+package namedargsfun main() {    var name = "Nithigna"    var (x,y,z) = arrayOf(1,2,3)    var map = mapOf( name to 21, "N" to 22)    for ((name,age) in map){        println("$name is aged about $age")    }    println(x)    println("$name N")}

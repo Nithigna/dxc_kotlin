@@ -6,9 +6,9 @@ class AssociateBy {
 data class Person(val name: String, val city: String, val phone: Int)
 
 var people = listOf<Person>(
-    Person("Rakesh", "Tirupati", 79897),
-    Person("Dama", "Bangalore", 87819),
-    Person("Royal", "Bangalore", 81796)
+    Person("Nithigna", "Tirupati", 79897),
+    Person("N", "Bangalore", 87819),
+    Person("Example", "Bangalore", 81796)
 )
 
 fun main() {

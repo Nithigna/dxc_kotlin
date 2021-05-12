@@ -15,6 +15,6 @@ class Singer (val song:String) : SoundBehaviour by ScreamBehaviour(song){
 }
 
 fun main() {
-    val singer = Singer("Rakesh")
+    val singer = Singer("Nithigna")
     singer.makeSound()
 }

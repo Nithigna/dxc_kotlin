@@ -14,8 +14,8 @@ fun main() {
     result = if (num1 > num2) num1 else if (num2 > num2) num2 else 0
         println(result)
 
-    var st1 = "Rakesh"
-    var st2 = "Royal"
+    var st1 = "Nithigna"
+    var st2 = "N"
 
     println(if (st1 == st2) "Same" else "Not same" )
 

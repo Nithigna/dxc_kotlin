@@ -2,7 +2,7 @@ package functions
 
 @OptIn(ExperimentalStdlibApi::class)
 fun main() {
-    val name : String = "Rakesh"
+    val name : String = "Nithigna"
     val upperName : (String) -> String = {str : String -> str.toUpperCase()}
     val lowerName : (String) -> String = {str -> str.toLowerCase()}
     val toCharName = {str : String -> str.toCharArray()}

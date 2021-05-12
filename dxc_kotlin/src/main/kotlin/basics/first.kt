@@ -7,9 +7,8 @@ class Rectangle(var height: Int, width: Int) {
 fun main() {
     println("hello world!")
     var c: Int = 18
-    var d = "Dama $c"
+    var d = "Nithigna $c"
     var e: String;
-//    d = "Rakesh "
     println(d)
     println(add(10, 20))
     var rectangle = Rectangle(5, 5)

@@ -23,6 +23,6 @@ fun main() {
     lists.addSysUser(10,sysUsers)
     lists.printList(sysUsers)
 
-    val otherUsers = listOf<String>("Rakesh","Dama","Royal")
+    val otherUsers = listOf<String>("Nithigna","N","Royal")
     lists.printStrings(otherUsers)
 }
